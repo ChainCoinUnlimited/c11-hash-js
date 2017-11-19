@@ -34,7 +34,7 @@
   "author": "quantumexplorer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chaincoinunlimitc11c11ash-js/issues"
+    "url": "https://github.com/chaincoinunlimited/c11c11ash-js/issues"
   },
   "devDependencies": {
     "benchmark": "^2.1.0",
