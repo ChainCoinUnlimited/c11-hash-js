@@ -1,7 +1,7 @@
 {
-  "name": "x11-hash-js",
+  "name": "c11-hash-js",
   "version": "1.0.0",
-  "description": "x11 javascript hashing algorithm in pure javascript",
+  "description": "c11 javascript hashing algorithm in pure javascript",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/test.js",
@@ -11,10 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/quantumexplorer/x11-hash-js.git"
+    "url": "https://github.com/chaincoinunlimited/c11-hash-js.git"
   },
   "keywords": [
     "x11",
+    "c11",
     "keccak",
     "groestl",
     "echo",
@@ -33,7 +34,7 @@
   "author": "quantumexplorer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/quantumexplorer/x11-hash-js/issues"
+    "url": "https://github.com/chaincoinunlimitc11c11ash-js/issues"
   },
   "devDependencies": {
     "benchmark": "^2.1.0",

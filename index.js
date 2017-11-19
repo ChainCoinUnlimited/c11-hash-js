@@ -13,7 +13,7 @@ var groestl = require('./lib/groestl');
 var bmw = require('./lib/bmw');
 var h = require('./lib/helper');
 
-var x11hash = module.exports;
+var c11hash = module.exports;
 
 module.exports.blake = function(str,format, output) {
   return blake(str,format,output);

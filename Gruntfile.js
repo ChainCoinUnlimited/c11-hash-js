@@ -9,10 +9,10 @@ module.exports = function(grunt) {
         browserify: {
             main: {
                 src: [],
-                dest: 'dist/x11-hash.js',
+                dest: 'dist/c11-hash.js',
                 options: {
                     require: [
-                        './index.js:x11hash'
+                        './index.js:xc1hash'
                     ]
                 }
             }
@@ -20,7 +20,7 @@ module.exports = function(grunt) {
         uglify: {
             my_target: {
                 files: {
-                    'dist/x11-hash.min.js': ['dist/x11-hash.js']
+                    'dist/xc1-hash.min.js': ['dist/xc1-hash.js']
                 }
             }
         }
