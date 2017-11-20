@@ -12,7 +12,7 @@ module.exports = function(grunt) {
                 dest: 'dist/c11-hash.js',
                 options: {
                     require: [
-                        './index.js:xc1hash'
+                        './index.js:c11hash'
                     ]
                 }
             }
@@ -20,7 +20,7 @@ module.exports = function(grunt) {
         uglify: {
             my_target: {
                 files: {
-                    'dist/xc1-hash.min.js': ['dist/xc1-hash.js']
+                    'dist/c11-hash.min.js': ['dist/c11-hash.js']
                 }
             }
         }
